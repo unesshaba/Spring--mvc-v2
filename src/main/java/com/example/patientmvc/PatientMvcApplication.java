@@ -24,9 +24,9 @@ public class PatientMvcApplication implements CommandLineRunner {
     }
     @Override
     public void run(String... args) throws Exception {
-        patientRepository.save(new Patient(null, "Othmane", new Date(), false, 230));
-        patientRepository.save(new Patient(null, "Darhoni", new Date(), true, 460));
-        patientRepository.save(new Patient(null, "Kapera", new Date(), false, 130));
+        patientRepository.save(new Patient(null, "youness", new Date(), false, 5356));
+        patientRepository.save(new Patient(null, "oumaima", new Date(), true, 3434));
+        patientRepository.save(new Patient(null, "wimrg", new Date(), false, 443));
     }
 
     @Bean

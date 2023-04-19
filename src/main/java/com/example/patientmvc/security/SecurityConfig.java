@@ -26,7 +26,7 @@ public class SecurityConfig {
                 //spring security chiffre tous les mdps par defaults
 // pour cela on utilise {noop} (no encoder password) => ca signifie que le mot de passe est stcoke comme il est
 
-                User.withUsername("othmane").password( passwordEncoder.encode("1234")).roles("USER","ADMIN").build(),
+                User.withUsername("younesst").password( passwordEncoder.encode("1234")).roles("USER","ADMIN").build(),
                 User.withUsername("user1").password(passwordEncoder.encode("1234")).roles("USER").build(),
                 User.withUsername("user2").password(passwordEncoder.encode("1234")).roles("USER").build()
             );
